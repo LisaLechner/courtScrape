@@ -1,0 +1,19 @@
+Package: courtScrape
+Type: Package
+Title: Scraping of European Constitutional Court Decisions
+Version: 0.1.0
+Author@R: person("Lisa", "Lechner", email = "lisa.lechner@uibk.ac.at", role = c("aut", "cre"),
+comment=c(ORCID="https://orcid.org/0000-0001-6690-1029")),
+person("Michael", "Mueller", email = "mi.mueller1996@gmail.com", role="ctb")),
+person("Melanie", "Martinz", email= "martinz.melanie@gmail.com", role="ctb"))
+Author: Lisa Lechner [aut] (<https://orcid.org/0000-0001-6690-1029>),
+Michael Mueller [ctb],
+Melanie Silvia Martinz [ctb]
+Maintainer: Lisa Lechner <Lisa.Lechner@uibk.ac.at>
+Description: Collection of scripts that access European Constitutional Court archives 
+and retrieve their published decisions. Note that we scraped the data last beginning of 2022. 
+Websites might have changed. Even though we are not able to keep the scripts up to date, 
+we still believe that interested people can benefit from this resource. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
